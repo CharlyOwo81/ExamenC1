@@ -11,42 +11,45 @@
         android:id="@+id/etTipoPoliza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="155dp"
         android:ems="10"
-        android:hint="Tipo de póliza"
+        android:hint="Tipo poliza"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etCosto"
+    <TextView
+        android:id="@+id/tvCosto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:ems="10"
-        android:hint="Costo"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="@+id/etTipoPoliza"
+        android:layout_marginTop="28dp"
+        android:text="Costo"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etTipoPoliza" />
 
     <EditText
         android:id="@+id/etAnios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="23dp"
         android:ems="10"
         android:hint="Años"
         android:inputType="number"
-        app:layout_constraintStart_toStartOf="@+id/etCosto"
-        app:layout_constraintTop_toBottomOf="@+id/etCosto" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCosto" />
 
     <TextView
-        android:id="@+id/tvTotalPoliza"
+        android:id="@+id/tvTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="83dp"
-        android:text="TextView"
+        android:layout_marginTop="73dp"
+        android:text="Total Poliza"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAnios" />
