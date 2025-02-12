@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         var polizaSedan:Float=500F
         var polizaDeportivos:Float=1200F
         var polizaCamioneta:Float=700F
-        var polizaInt:Int
 
         val tipoPoliza:EditText=findViewById(R.id.etTipoPoliza)
         val costo:TextView=findViewById(R.id.tvCosto)
